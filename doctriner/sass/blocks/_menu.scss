@@ -1,0 +1,12 @@
+.menu__list{
+	display: flex;
+	gap: 17px;
+}
+.menu__item {
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row nowrap;
+}
+.menu__link:hover img {
+	filter: brightness(0.8);
+}

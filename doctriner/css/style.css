@@ -16,22 +16,6 @@ html.body {
 
 }
 
-body {
-	line-height: 1;
-	min-height: 100hv;
-	font-family: Inter;
-	color: rgb(0, 136, 255);
-	background-color: rgba(10, 9, 45, 1);
-}
-
-li {
-	list-style: none;
-}
-
-.a {
-	text-decoration: none;
-}
-
 .wrapper {
 	overflow: hidden;
 	min-height: 100%;
@@ -41,27 +25,6 @@ li {
 
 .page {
 	flex: 1 1 auto;
-}
-
-[class*="__container"] {
-	max-width: 900px;
-	display: flex;
-	margin: 0 auto;
-	padding: 0px 15px;
-}
-
-
-.header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 50;
-	border-bottom: 2px solid rgba(26, 25, 50, 0.909);
-}
-
-.header__logo {
-	display: flex;
 }
 
 .header__container {
@@ -78,7 +41,6 @@ li {
 	gap: 17px;
 }
 
-.menu__item {}
 
 .menu__link {}
 

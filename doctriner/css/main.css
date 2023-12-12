@@ -8,9 +8,14 @@
 
 h1, h2, h3, h4, h5, h6, p {
   font-size: inherit;
+  font-family: inherit;
+  color: inherit;
 }
 
 input, button {
+  background: none;
+  outline: none;
+  border: none;
   font-size: inherit;
   font-family: inherit;
 }
@@ -48,11 +53,9 @@ body {
   z-index: 50;
   border-bottom: 2px solid rgba(26, 25, 50, 0.909);
 }
-
 .header__logo {
   display: flex;
 }
-
 .header__container {
   display: flex;
   gap: 20px;
@@ -65,15 +68,11 @@ body {
   display: flex;
   gap: 17px;
 }
-
-.menu__item {
-  display: flex;
-  justify-content: flex-start;
-  flex-flow: row nowrap;
-}
-
-.menu__link:hover img {
+.menu__item button:hover {
   filter: brightness(0.8);
+}
+.menu__item button:active {
+  filter: brightness(0.5);
 }
 
 /*# sourceMappingURL=main.css.map */

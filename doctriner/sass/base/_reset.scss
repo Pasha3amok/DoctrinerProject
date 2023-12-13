@@ -18,6 +18,14 @@ input,button{
 	font-size: inherit;
 	font-family: inherit;
 }
+button{
+	&:hover{
+		filter: brightness(0.8);
+	}
+	&:active{
+		filter: brightness(0.5);
+	}
+}
 ul,li{
 	list-style: none;
 }

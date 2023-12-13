@@ -1,21 +1,12 @@
 .menu{
+	
 	&__list{
 		display: flex;
 		gap: 17px;
 	}
 
-	&__contentLeft {
+	&__contentRight {
 		justify-content: flex-end;
-
-		button{
-			&:hover{
-				filter: brightness(0.8);
-			}
-			&:active{
-				filter: brightness(0.5);
-			}
-		}
-
 	}
 
 	&__contentCenter{

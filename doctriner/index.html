@@ -13,17 +13,25 @@
 		<header class="header">
 			<header class="header__container">
 				<a class="header__logo" href="#"><img src="img/logo.svg" alt="D"></a>
-				<nav class="header__menu menu">
+				<nav class="header__menu contentCenter">
 					<ul class="menu__list">
-						<li class="menu__item">
-							<form action="/search/" role="search"><img src="img/search.svg" alt="">
+						<li class="menu__contentCenter">
+							<form action="" class="search">
+								<label class="search__label">
+									<input type="text" class="search__input" placeholder="Пошук..">
+								</label>
 							</form>
 						</li>
-						<li class="menu__item">
+					</ul>
+				</nav>
+
+				<nav class="header__menu contentLeft">
+					<ul class="menu__list">
+						<li class="menu__contentLeft">
 							<button><img src="img/add_button.svg" draggable="false" alt="add_button"></button>
 
 						</li>
-						<li class="menu__item"><button><img src="img/profile.svg" draggable="false"
+						<li class="menu__contentLeft"><button><img src="img/profile.svg" draggable="false"
 									alt="profile"></button></li>
 					</ul>
 				</nav>

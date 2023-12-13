@@ -9,7 +9,8 @@ body {
 	background-color: rgba(10, 9, 45, 1);
 }
 [class*="__container"] {
-	max-width: 900px;
+	max-width: 1500px;
+	justify-content: space-around;
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;

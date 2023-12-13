@@ -1,7 +1,4 @@
 .header {
-	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
 	z-index: 50;
 	border-bottom: 2px solid rgba(26, 25, 50, 0.909);
@@ -13,7 +10,6 @@
 	&__container{
 		display: flex;
 		gap: 20px;
-		justify-content: space-between;
 		align-items: center;
 		min-height: 60px;
 	}

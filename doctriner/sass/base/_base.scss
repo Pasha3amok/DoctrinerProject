@@ -1,16 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800,900&display=swap);
-
-
 body {
 	line-height: 1;
 	min-height: 100hv;
-	font-family: Inter;
+	font-family: $font_family;
 	color: rgb(0, 136, 255);
 	background-color: rgba(10, 9, 45, 1);
 }
 [class*="__container"] {
-	max-width: 1500px;
-	justify-content: space-around;
+	max-width: 1100px;
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;

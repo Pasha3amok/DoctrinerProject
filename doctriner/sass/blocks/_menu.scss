@@ -1,6 +1,5 @@
 .menu{
 	&__list{
-		justify-content: space-between;
 		display: flex;
 		gap: 17px;
 	}
@@ -14,13 +13,12 @@
 			}
 			&:active{
 				filter: brightness(0.5);
-				
 			}
 		}
 
 	}
 
 	&__contentCenter{
-		justify-content: center;
+		justify-content: flex-start;
 	}
 }

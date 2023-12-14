@@ -1,3 +1,4 @@
+@import "./base/vars";
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -5,13 +6,18 @@
 	font-size: 16px;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1{
+	font-size: 22px;
+}
+
+h3,p{
 	font-size: inherit;
 	font-family: inherit;
 	color: inherit;
 }
 input,button{
 	background: none;
+	color: $defaultfontColor;
 	outline: none;
 	border: none;
 	cursor: pointer;
@@ -28,6 +34,7 @@ button{
 }
 ul,li{
 	list-style: none;
+	flex-direction: row;
 }
 a{
 	text-decoration: none;

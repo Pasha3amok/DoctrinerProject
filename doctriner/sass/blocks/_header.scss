@@ -1,6 +1,11 @@
+@import "./base/vars";
 .header {
 	width: 100%;
+	position: sticky;
+	overflow-x: visible;
+	top: 0;
 	z-index: 50;
+	background-color: $defaultBackColor;
 	border-bottom: 2px solid rgba(26, 25, 50, 0.909);
 
 	&__logo{
@@ -11,7 +16,7 @@
 		display: flex;
 		gap: 20px;
 		align-items: center;
-		min-height: 60px;
+		min-height: 5rem;
 	}
 }
 

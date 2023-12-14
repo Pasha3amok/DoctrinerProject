@@ -1,10 +1,13 @@
 .moduls {
-	padding-top: 40px;
+	padding-top: 10px;
 	padding-bottom: 40px;
-	border:70px solid #0040ff;
+	flex-direction: row;
+	align-items:flex-start;
 
-	&__block {
-		border-radius: 50px;
-		background-color: #2E3856;
+	&__blocks{
+		overflow-x: hidden;
+		justify-content: flex-start;
+		gap: 10px;
+		display: flex;
 	}
 }

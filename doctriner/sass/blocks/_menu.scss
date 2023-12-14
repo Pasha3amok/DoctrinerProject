@@ -1,15 +1,16 @@
 .menu{
-	
+
 	&__list{
 		display: flex;
 		gap: 17px;
 	}
 
 	&__contentRight {
-		justify-content: flex-end;
+		overflow:auto;
 	}
 
 	&__contentCenter{
+		width: 70vw;
 		justify-content: flex-start;
 	}
 }

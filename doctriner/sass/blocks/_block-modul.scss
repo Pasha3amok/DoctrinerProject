@@ -1,15 +1,36 @@
 .block-modul {
-	border:70px solid #0040ff;
+	position: relative;
+	border: 2px solid $defaultModulColor;
+	border-radius: 20px;
+	background-color: $defaultModulColor;
+	
 
 	&__body {
-
+		gap: 10px;
+		height: 177px;
+		width: 292px;
+		padding: 20px 20px 12px 20px;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
-	&__link {
+	& button {
+		color: $defaultfontColor;
+		text-align:left;
+
+		&:hover{
+			filter: brightness(1);
+			border: solid #dbdfff;
+		}
+		&:active{
+			filter: brightness(0.8);
+		}
+	}
+	&__link{
+		color: $defaultfontColor;
 	}
 
 	&__title {
-		background-color: aquamarine;
 	}
 
 	&__link-title {

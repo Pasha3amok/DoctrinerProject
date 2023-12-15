@@ -1,0 +1,11 @@
+.create-modul-btn{
+	background-color: $defaultModulColor;
+	border-radius: 20px;
+
+	&.button{
+		width: 100px;
+		height: 50px;
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+}

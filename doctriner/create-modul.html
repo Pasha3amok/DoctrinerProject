@@ -42,26 +42,30 @@
 		<section class="page__main main">
 			<div class="main__container">
 				<div class="main__content">
-					<h1 class="main__title">Створення нового модуля</h1>
-					<button class="create-modul button">Створити</button>
+					<ul class="main__list">
+						<li class="title">
+							<h1 class="main__title">Створення нового модуля</h1>
+						</li>
+						<li class="create-button"><button class="create-modul-btn button">Створити</button></li>
+					</ul>
 				</div>
 			</div>
 			<section class="moduls">
 				<div class="moduls__container">
-					<div class="moduls__blocks">
-						<article class="moduls_block block-modul">
-							<button class="block-modul button">
-								<a href="#" class="block-modul__link">
-									<div class="block-modul__body">
-										<div class="block-modul__title">Name</div>
-										<div class="modul__promt">
-											<div class="block-modul">
-												тут інфа про модуль
-											</div>
-										</div>
-									</div>
-								</a>
-							</button>
+					<div class="create-moduls__body">
+
+						<article class="title-moduls_block create-block-modul">
+
+							<input type="text" class="title-create-block__input" placeholder="Введіть назву модуля">
+							</input>
+
+						</article>
+
+						<article class="description-moduls_block create-block-modul">
+
+							<input type="text" class="description-create-block__input" placeholder="Опис вашого модуля">
+							</input>
+
 						</article>
 
 					</div>

@@ -4,7 +4,13 @@
 }
 .main {
 	padding-top: 50px;
-	flex-direction: row;
+
+	&__list{
+		gap:5rem;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
 
 	&__container {
 	}

@@ -11,7 +11,8 @@
 <body>
 	<header class="header">
 		<header class="header__container">
-			<a class="header__logo" href="index.html"><img src="img/logo.svg" alt="D"></a>
+			<a class="header__logo" href="index.html" draggable="false"><img src="img/logo.svg" alt="D"
+					draggable="false"></a>
 			<nav class="header__menu contentCenter">
 				<ul class="menu__list">
 					<li class="menu__contentCenter">
@@ -27,8 +28,8 @@
 			<nav class="header__menu contentRight">
 				<ul class="menu__list">
 					<li class="menu__contentRight">
-						<button><a href="create-modul.html"><img src="img/add_button.svg" draggable="false"
-									alt="add_button"></a></button>
+						<button><a href="create-modul.html" draggable="false"><img src="img/add_button.svg"
+									draggable="false" alt="add_button"></a></button>
 
 					</li>
 					<li class="menu__contentRight"><button><img src="img/profile.svg" draggable="false"
@@ -52,7 +53,7 @@
 			</div>
 			<section class="moduls">
 				<div class="moduls__container">
-					<div class="create-moduls__body">
+					<div class="create-moduls">
 
 						<article class="title-moduls_block create-block-modul">
 
@@ -62,12 +63,29 @@
 						</article>
 
 						<article class="description-moduls_block create-block-modul">
-
 							<input type="text" class="description-create-block__input" placeholder="Опис вашого модуля">
 							</input>
-
 						</article>
 
+					</div>
+					<div class="moduls-cards">
+						<ol class="cards-list">
+							<li class="card">
+								<div class="card__body">
+									<div class="card-hat"></div>
+									<div class="card-base">
+										<div class="input-list">
+											<div class="term input-proprties"><input type="text" class="card__input"
+													placeholder="Термін">
+												</input></div>
+											<div class="definition input-proprties"><input type="text"
+													class="card__input" placeholder="Дефініція">
+												</input></div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ol>
 					</div>
 				</div>
 			</section>

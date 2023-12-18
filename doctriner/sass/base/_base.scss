@@ -14,19 +14,17 @@ body {
 	padding-left: 20px;
 	padding-right: 15px;
 }
-input[type=text] {
+input[type=text]{
 	background-color: $defaultModulColor;
 	border-radius: 10px;
 	gap: 20px;
-	border: none;
-	margin-top: 0;
-	margin-left: 0;
-	margin-bottom: 0;
-	width: 100%;
-	font-size: 14px;
 	color: aliceblue;
+	font-size: 14px;
+	width: 100%;
+	
 
 	&::placeholder{
 		color: rgba(240, 248, 255, 0.813);
+		padding-bottom: 1px;
 	}
 }

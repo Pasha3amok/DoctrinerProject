@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/main.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./js/script.js"></script>
 	<title>Doctriner</title>
 </head>
 
@@ -12,7 +13,8 @@
 	<div class="wrapper">
 		<header class="header">
 			<header class="header__container">
-				<a class="header__logo" href="#"><img src="img/logo.svg" alt="D"></a>
+				<a class="header__logo" href="#" draggable="false"><img src="img/logo.svg" alt="D"
+						draggable="false"></a>
 				<nav class="header__menu contentCenter">
 					<ul class="menu__list">
 						<li class="menu__contentCenter">
@@ -28,8 +30,8 @@
 				<nav class="header__menu contentRight">
 					<ul class="menu__list">
 						<li class="menu__contentRight">
-							<button><a href="create-modul.html"><img src="img/add_button.svg" draggable="false"
-										alt="add_button"></a></button>
+							<button><a href="create-modul.html" draggable="false"><img src="img/add_button.svg"
+										draggable="false" alt="add_button"></a></button>
 
 						</li>
 						<li class="menu__contentRight"><button><img src="img/profile.svg" draggable="false"
@@ -50,13 +52,13 @@
 					<div class="moduls__container">
 						<div class="moduls__blocks">
 							<article class="moduls_block block-modul">
-								<button class="block-modul button">
+								<button draggable="true" class="block-modul button">
 									<a href="#" class="block-modul__link">
 										<div class="block-modul__body">
-											<div class="block-modul__title">Name</div>
+											<div class="block-modul__title"></div>
 											<div class="modul__promt">
 												<div class="block-modul">
-													тут інфа про модуль
+
 												</div>
 											</div>
 										</div>
@@ -65,7 +67,7 @@
 							</article>
 
 							<article class="moduls_block block-modul">
-								<button class="block-modul button">
+								<button draggable="true" class="block-modul button">
 									<a href="#" class="block-modul__link">
 										<div class="block-modul__body">
 											<div class="block-modul__title">Name</div>
